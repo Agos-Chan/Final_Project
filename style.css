@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cherry+Bomb+One&family=Courier+Prime&family=DM+Serif+Display&display=swap');
+
+body{
+    background-color: #eee5dd;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #d8d0c5;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.navbar-container-first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navbar-container-second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-left: 10px;
+}
+
+
+
+.Logo{
+    width: 8em;
+}
+
+.Disney_Star_logo{
+    padding-right: 1em;
+}
+
+.Disney_Star_logo img{
+    width: 16em;
+    height: 3em;
+}
+
+.navbar-button{
+    background-color: #d8d0c5;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #5c5955;
+    color: #494642;
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+.navbar-button:hover{
+    background-color: #93946f;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #d8d0c5;
+    color: #565c55;
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+.navbar-container-second-row-left-side{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+.navbar-container-second-row-left-side .navbar-links{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+  }
+
+.navbar-container-second-row-left-side .navbar-links:hover{
+    color: #93946f;
+    font-size: 16px;    
+}
+
+.navbar-link-right-side{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+    padding-right: 1em;
+}
+
+.navbar-link-right-side:hover{
+    color: #93946f;
+    transform: scale(1.2);
+}
+
+.row{
+    padding-top: 2em;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Debit-Card-Logo{
+    align-items: center;
+}
