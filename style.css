@@ -168,6 +168,9 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.carousel-inner img{
+    width: 12em;
+}
 
 
 
