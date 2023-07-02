@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cherry+Bomb+One&family=Courier+Prime&family=DM+Serif+Display&display=swap');
 
 body{
-    background-color: #eee5dd;
+    background-color: #eee5dd;          /* Color fondo Web */
 }
 
 .navbar-container{
     display: flex;
     flex-direction: column;
-    background-color: #d8d0c5;
+    background-color: #d8d0c5;          /* Encabezado */
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
 .navbar-container-first-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;                    /* Primera linea, logo y propaganda */
     justify-content: space-between;
     
 }
@@ -22,7 +22,7 @@ body{
 .navbar-container-second-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;         /* Segunda Linea, botones y Carrito */
     margin-top: 1em;
     padding-left: 10px;
 }
@@ -42,16 +42,24 @@ body{
     height: 3em;
 }
 
-.navbar-button{
+.Buttons{
+    display: flex;
+    flex-direction: row;                        /* Botón de Ubicación y Dropdown de Categorías */
+    justify-content: space-between;
+    margin-right: 1em;
+}
+
+.navbar-buttons{
     background-color: #d8d0c5;
     border-style: solid;
     border-radius: 12px;
-    border-color: #5c5955;
+    border-color: #5c5955;                  /* Selector de clase para ambos botones (por separado) */
     color: #494642;
     font-family: 'Cherry Bomb One', cursive;
+    margin-right: 2em;
 }
 
-.navbar-button:hover{
+.navbar-buttons:hover{
     background-color: #93946f;
     border-style: solid;
     border-radius: 12px;
@@ -64,15 +72,21 @@ body{
     padding-left: 1em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;                 /* Botones de la Izquierda, Oferta y Ayuda incluidos */
     width: 30%;
     align-items: center;
 }
 
+.navbar-container-second-row-left-side-links{
+    display: flex;                                  /* Un Div con los dos links */
+    flex-direction: row;
+}
+
 .navbar-container-second-row-left-side .navbar-links{
     text-decoration: none;
-    color: black;
+    color: black;                                   /* Botones de OFERTA y AYUDA */
     font-family: 'Courier Prime', monospace;
+    margin-right: 2em;
   }
 
 .navbar-container-second-row-left-side .navbar-links:hover{
@@ -83,7 +97,7 @@ body{
 .navbar-link-right-side{
     text-decoration: none;
     color: black;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Courier Prime', monospace;               /* Carrito */
     padding-right: 1em;
 }
 
@@ -98,10 +112,8 @@ body{
 
 .card-body{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;                                /* Icono de tarjeta de Credito */
     justify-content: space-between;
-}
-
-.Debit-Card-Logo{
     align-items: center;
 }
+
