@@ -97,7 +97,7 @@ a{
     color: black;                                   /* Botones de OFERTA y AYUDA */
     font-family: 'Courier Prime', monospace;
     margin-right: 2em;
-  }
+}
 
 .navbar-container-second-row-left-side .navbar-links:hover{
     color: #93946f;
@@ -190,26 +190,29 @@ a{
 .Adding-buttons{
     background-color: #d8d0c5;
     border-style: solid;
-    border-radius: 12px;
+    border-radius: 100%;
     border-color: #5c5955;                          /* Añadir al carrito */
     color: #494642;
     font-family: 'Cherry Bomb One', cursive;
     margin-left: 10em;
     width: 1.8em;
     height: 1.8em;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .Adding-buttons:hover{
     background-color: #93946f;
     border-style: solid;
-    border-radius: 12px;
-    border-color: #d8d0c5;
+    border-radius: 100%;
+    border-color: #ece6e0;
     color: #565c55;
     font-family: 'Cherry Bomb One', cursive;
 }
 
+.Adding-buttons h3{
+    align-self: center;
+    font-size: 15px;
+}
 
 .box {
     width: 100%;
@@ -218,38 +221,115 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
   
-  .box-white {
+
+
+.box-white {
     width: 100%;
     height: 250px;
     background: white;
     margin-bottom: 1em;
-  }
-
-  .Precio h1{
-    margin-top: 1em;
-    font-size: 25px;
-    font-family: 'Special Elite', cursive;
-    color: rgb(255, 255, 255);
-  }
-
-  .Precio h2{
-    padding: 1px;
-    font-size: 15px;
-    font-family: 'Special Elite', cursive;
-    color: rgb(255, 255, 255);
-  }
-
-  .Precio{
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
     display: flex;
     flex-direction: column;
+}
+
+.Propagandas{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.Propagandas img{
+    width: 8em;
+}
+
+.Propagandas h1{
+    font-size: 1em;
+    color: #000;
+    font-family: 'Special Elite', cursive;
+}
+
+.Disney{
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    width: 20em;
+}
+
+.Star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+}
+
+.Envíos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20em;
+}
+
+.Suscribe-Button{
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #7d7e5f;                 
+    color: #7d7e5f;
+    font-family: 'Special Elite', cursive;
     margin-right: 2em;
-  }
+    padding: 0.2em;
+    margin-top: 0.5em;
+}
+    
+.Suscribe-Button:hover{
+    background-color: #7d7e5f;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Special Elite', cursive;
+
+}
 
 
+
+
+.Precio h1{
+    margin-top: 0.7em;
+    font-size: 12px;
+    font-family: 'Special Elite', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.Precio h2{
+    padding: 0.5px;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.Precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 2em;
+    height: 50px;
+}
+
+.Suscribe{
+    margin-top: 0.8em;
+    margin-left: 1em;
+}
 
 
 
